@@ -29,6 +29,7 @@ https://doi.org/10.3389/fpsyg.2022.979341
 # Getting started　実行手順
 ## Environment 環境の構築
 GPflow is used in this program, so CUDA 11 or higher and Tensorflow2 are required.
+
 GPflowを使っているためCUDA11以上のtensorflow2系が必要です．
 ```
 pip install -r requirements.txt
@@ -44,6 +45,7 @@ python 002_lastrun.py
 
 ## Utility function estimation (事後分析（効用関数の推定））
 Estimating individual utility function using  GPOR using filename_result.csv and filename_response.csv in the data folder
+
 dataファイルのfilename_result.csvとfilename_response.csvを使ってGPORで個人の効用関数を推定する.
 
 ```
